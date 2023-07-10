@@ -691,11 +691,11 @@ fill: #2E2F42; transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
   width: 264px; 
   height: 40px; 
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   border: 1px solid #FFFFFF;
   border-radius: 4px;
-  background: #2E2F42; 
+  background-color: transparent; 
   color: #FFFFFF;
   filter: drop-shadow(0px 4px 4px 
   rgba(0, 0, 0, 0.15));}  
@@ -705,8 +705,8 @@ fill: #2E2F42; transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .ftr-form-btn {display: flex; 
   justify-content: center;
   align-items: center;
-  gap: 16px;
-  width: 165px;
+  
+  min-width: 165px;
   height: 40px;
   border: none;
   background-color: #4D5AE5;
@@ -722,3 +722,5 @@ fill: #2E2F42; transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
   .ftr-form-btn:hover,
   .ftr-form-btn:focus {background-color: var(--btn-bg-focus-cl);}
+
+  .modal-icon {margin-left: 16px;}
