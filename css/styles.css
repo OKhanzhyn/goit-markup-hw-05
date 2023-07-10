@@ -679,12 +679,12 @@ fill: #2E2F42; transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
   .ftr-form {
     display: flex;  
-    flex-direction: column;
-    justify-content: start; align-items: start;}
+    justify-content: start; align-items: start; 
+    gap: 24px;}
 
-.ftr-sending-box {display: flex; 
+.ftr-label {display: flex; 
   justify-content: center;
-  align-items: center; gap: 24px;}
+  align-items: center; }
 
 .ftr-input {
   padding: 8px 16px;
@@ -697,9 +697,8 @@ fill: #2E2F42; transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
   border-radius: 4px;
   background: #2E2F42; 
   color: #FFFFFF;
-  box-shadow: 0px 4px 4px 
-  rgba(0, 0, 0, 0.15);
- }  
+  filter: drop-shadow(0px 4px 4px 
+  rgba(0, 0, 0, 0.15));}  
 
   .ftr-input::placeholder {color: #FFFFFF;} 
   
