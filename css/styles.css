@@ -525,7 +525,7 @@ fill: #2E2F42; transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
  /*-----Modal form-----*/
 
  
- .modal {padding: 70px 24px 24px;}
+ .modal {padding: 72px 24px 24px 24px;}
 
  .form-cont {display: flex; 
   flex-direction: column; 
@@ -662,9 +662,11 @@ fill: #2E2F42; transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
   /*-----Footer form-----*/
 
-  .ftr-form {display: flex; flex-direction: column;
-    justify-content: start; align-items: start;
-    margin-left: 80px; 
+.ftr-form-sect {
+  display: flex; 
+  flex-direction: column;
+  justify-content: start; align-items: start;
+  margin-left: 80px; 
   width: 453px;}
 
   .ftr-form-title {
@@ -673,8 +675,13 @@ fill: #2E2F42; transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
     line-height: 1.5;
     letter-spacing: 0.02em; 
     color: #FFFFFF; 
-    margin-bottom: 16px;
-    }
+    margin-bottom: 16px;}
+
+  .ftr-form {
+    display: flex;  
+    flex-direction: column;
+    justify-content: start; align-items: start;}
+
 .ftr-sending-box {display: flex; 
   justify-content: center;
   align-items: center; gap: 24px;}
