@@ -1,6 +1,7 @@
 :root {
   --bg-dark: #2E2F42; 
-  --btn-bg-focus-cl: #404BBF;}
+  --btn-bg-focus-cl: #404BBF;
+  --check-fill-cl: #F4F4FD;}
 
 :root {
 --link-focus-cl: #404BBF;
@@ -612,6 +613,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     outline: transparent;
+    background-color: transparent;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 360px;
@@ -641,12 +643,12 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 8px; 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: transparent;}  
+  fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}  
 
 .check-box:checked + .custom-check-box {background-color: var(--btn-bg-focus-cl); 
   border: none;
-  fill: #F4F4FD;}  
+  fill: var(--check-fill-cl);}  
 
   .policy {font-size: 12px;
     line-height: 1.17;
@@ -660,6 +662,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
     letter-spacing: 0.04em;
     color:  var(--pf-btn-text-cl);
     text-decoration: underline;}
+
 
   .form-button {display: block;
   justify-content: center;
