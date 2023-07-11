@@ -418,7 +418,7 @@
             name="user-email" placeholder="E-mail"/>
             </label>
             <button class="ftr-form-btn"    type="submit">Subscribe
-              <svg class="modal-icon"
+              <svg class="ftr-modal-icon"
               width="24" height="24">
               <use href="./images/icons.svg#icon-plane"></use>
             </svg>  
@@ -439,12 +439,12 @@
           </svg>  
         </button>
 
-        <div class="form-cont">
-          <p class="form-title">Leave your contacts and we will call you back
-          </p>
+          <p class="form-title">Leave your contacts and we will call you back</p>
+
           <form class="modal-form"  name="issue-report-form" autocomplete="off">
-            <label class="form-field">
-              <span class="form-label">Name</span>
+
+            <div class="form-unit">
+              <label class="form-field">Name</label>
               <input
               class="form-input"
               type="text"
@@ -453,10 +453,10 @@
               <svg class="form-icon" width="18" height="24">
               <use href="./images/icons.svg#icon-person"></use>
               </svg>
-           </label>
-        
-            <label class="form-field">
-              <span class="form-label">Phone</span>
+            </div>
+
+            <div class="form-unit">
+              <label class="form-field">Phone</label>
               <input
               class="form-input"
               type="text"
@@ -464,10 +464,10 @@
               <svg class="form-icon" width="18" height="24">
               <use href="./images/icons.svg#icon-phone"></use>
               </svg>
-            </label>
+            </div>
 
-            <label class="form-field">
-              <span class="form-label">Email</span>
+            <div class="form-unit">
+              <label class="form-field">Email</label>
               <input
               class="form-input"
               type="text"
@@ -476,10 +476,10 @@
               <svg class="form-icon" width="18" height="24">
               <use href="./images/icons.svg#icon-email"></use>
               </svg>
-            </label>
-        
-            <label class="form-field">
-              <span class="form-label">Comment</span>
+            </div>
+
+            <div class="form-unit">
+            <label class="form-field">Comment</label>
               <textarea
                class="comm-form-input"
                name="user-comment"
@@ -487,7 +487,7 @@
                id="user-comment"
                rows="5"
               ></textarea>
-            </label>
+            </div>
 
             <label class="agreement-sect">
               <input class="check-box visually-hidden" type="checkbox" name="policy-acception" value="acception"/>
@@ -503,7 +503,7 @@
 
             <button class="form-button" type="submit">Send</button>
           </form>
-        </div>
+        
       </div>
     </div>
     <script src="./js/modal.js"></script>
