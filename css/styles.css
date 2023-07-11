@@ -526,6 +526,9 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
  /*-----Modal form-----*/
 
  .form-title {display: flex;
+  justify-content: center;
+  align-items: center;  
+  text-align: center; 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -540,7 +543,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
   max-width: 360px;}
 
 
-  .form-unit {position: relative;
+  .form-unit {
     display: flex;
     flex-direction: column;    
     font-size: 12px;
@@ -557,6 +560,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
   letter-spacing: 0.04em;
   color: rgba(142, 143, 153, 1);
   margin-bottom: 4px;}
+
+  .form-input-box {position: relative;}
 
   .form-input {
     display: flex;

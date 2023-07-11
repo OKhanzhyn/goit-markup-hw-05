@@ -444,49 +444,59 @@
           <form class="modal-form"  name="issue-report-form" autocomplete="off">
 
             <div class="form-unit">
-              <label class="form-field">Name</label>
-              <input
-              class="form-input"
-              type="text"
-              name="user-name"
-              autofocus />
-              <svg class="form-icon" width="18" height="24">
-              <use href="./images/icons.svg#icon-person"></use>
-              </svg>
+              <label class="form-field" for="user-name">Name</label>
+              <div class="form-input-box">
+                <input
+                class="form-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+                autofocus />
+                <svg class="form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+              </div>
             </div>
 
             <div class="form-unit">
-              <label class="form-field">Phone</label>
+              <label class="form-field" for="user-phone">Phone</label>
+              <div class="form-input-box">
               <input
               class="form-input"
               type="text"
-              name="user-phone"/>
+              name="user-phone" id="user-phone"/>              
               <svg class="form-icon" width="18" height="24">
               <use href="./images/icons.svg#icon-phone"></use>
               </svg>
+              </div>
             </div>
 
             <div class="form-unit">
-              <label class="form-field">Email</label>
+              <label class="form-field" for="user-mail">Email</label>
+              <div class="form-input-box">
               <input
               class="form-input"
               type="text"
               name="user-mail"
-              placeholder=""/>
+              id="user-mail"/>
               <svg class="form-icon" width="18" height="24">
               <use href="./images/icons.svg#icon-email"></use>
               </svg>
+              </div>
             </div>
 
             <div class="form-unit">
-            <label class="form-field">Comment</label>
+            <label class="form-field" for="user-comment">Comment</label>
+              <div class="form-input-box">
               <textarea
                class="comm-form-input"
-               name="user-comment"
+               name="user-comment" 
+               id="user-comment"
                placeholder="Text input"
                id="user-comment"
                rows="5"
               ></textarea>
+              </div>
             </div>
 
             <label class="agreement-sect">
