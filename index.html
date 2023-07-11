@@ -486,8 +486,7 @@
             </div>
 
             <div class="comm-form-unit">
-              <label class="form-field" for="user-comment">Comment</label>
-              
+              <label class="form-field" for="user-comment">Comment</label>              
               <textarea
                class="comm-form-input"
                name="user-comment" 
@@ -497,17 +496,19 @@
               ></textarea>
             </div>
 
-            <label class="agreement-sect">
-              <input class="check-box visually-hidden" type="checkbox" name="policy-acception" value="acception"/>
-              <span class="custom-check-box">
-                <svg class="checkbox-icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-tick-the-box"></use>
-                </svg>
-              </span>  
+            <div class="agreement-sect">
+              
+              <input class="check-box visually-hidden" type="checkbox" name="user-privacy" value="true" id="user-privacy"/>
+               
 
-              <span class="policy"> I accept the terms and conditions of the <a class="policy-link" href="#">Privacy Policy</a>
-              </span>
-            </label>
+              <label class="policy"  for="user-privacy"> 
+                <span class="custom-check-box">
+                  <svg class="checkbox-icon" width="10" height="8">
+                    <use href="./images/icons.svg#icon-tick-the-box"></use>
+                  </svg>
+                </span>I accept the terms and conditions of the <a class="policy-link" href="#">Privacy Policy</a> 
+              </label>              
+            </div>
 
             <button class="form-button" type="submit">Send</button>
           </form>
